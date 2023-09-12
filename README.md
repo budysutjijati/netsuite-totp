@@ -45,7 +45,7 @@ const totpGenerator = new TOTPGenerator({
     secret: 'YOUR-SECRET-KEY', 
     digits: 6, 
     period: 30
-});
+}).generateToken();
 ```
 
 ## Contributing
