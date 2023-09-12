@@ -41,7 +41,7 @@ Instantiate the TOTPGenerator class by providing the necessary 2FA secret key, t
 Create a new TOTP by providing the 2FA secret key. The digits and period can be defaulted as is.
 
 ```javascript
-const totpGenerator = new TOTPGenerator({ 
+const totpToken = new TOTPGenerator({ 
     secret: 'YOUR-SECRET-KEY', 
     digits: 6, 
     period: 30
