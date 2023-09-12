@@ -3,7 +3,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/budysutjijati/netsuite-totp/badge.svg?targetFile=package.json)](https://snyk.io/test/github/budysutjijati/netsuite-totp?targetFile=package.json)
 
 
-The NetSuite TOTP Node.js library is a robust and easy-to-use class-based module designed to facilitate the generation of Time-Based One-Time Passwords (TOTP) in Node.js applications. Utilizing the otplib library, it allows developers to generate secure OTP tokens with configurable digits and time periods. The generated tokens are verified internally to ensure their validity before being returned, guaranteeing the generation of valid tokens in every instance.
+The NetSuite TOTP Node.js library is a robust and easy-to-use class-based module designed to facilitate the generation of Time-Based One-Time Passwords (TOTP) in Node.js applications. This toolkit has proven to be an invaluable resource in test automation initiatives, enabling the test framework to seamlessly log in with high-level access roles. Utilizing the otplib library, it allows developers to generate secure OTP tokens with configurable digits and time periods. The generated tokens are verified internally to ensure their validity before being returned, guaranteeing the generation of valid tokens in every instance. 
 
 ## Installation
 
@@ -36,9 +36,6 @@ Instantiate the TOTPGenerator class by providing the necessary 2FA secret key, t
 - Now enter the 6-digit token produced by your authenticator application in the confirmation field.
 - If all details are accurate, you will have the option to save the newly generated backup codes displayed to you. This concludes the process.
 
-```javascript
-const netSuiteAPI = new NetSuiteAPI(config);
-```
 
 ### Create a TOTP
 Create a new TOTP by providing the 2FA secret key. The digits and period can be defaulted as is.
